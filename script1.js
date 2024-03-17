@@ -4,7 +4,7 @@ let qrText = document.getElementById("qrText");
 
 function generateQR() {
     if (qrText.value.length > 0) {
-        qrImage.src = "http://api.qrserver.com/v1/create-qr-code/?size=1000x1000&data=" + qrText.value;
+        qrImage.src = "http://api.qrserver.com/v1/create-qr-code/?size=500x500&data=" + qrText.value;
         imgBox.classList.add("show-img");
     } else {
         qrText.classList.add("error");

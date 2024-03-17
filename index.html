@@ -11,13 +11,13 @@
 </head>
 
 <body>
-    <div>
-        <p>Введите свой текст или URL</p>
-        <input type="text" placeholder="Текст или URL" id="qrText">
-        <div id="imgBox">
+    <div class="gen">
+        <p class="TEXT">Введите свой текст или URL</p>
+        <input type="text" placeholder="Текст или URL" id="qrText" class="URLI">
+        <div id="imgBox" class="QRB">
             <img src="" alt="" id="qrImage">
         </div>
-        <button onClick="generateQR()">Сгенерировать QR-код</button>
+        <button onClick="generateQR()" class="BTN">Сгенерировать QR-код</button>
     </div>
 
     <script src="script1.js"></script>

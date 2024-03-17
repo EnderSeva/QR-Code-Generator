@@ -3,3 +3,23 @@
     font-weight: 400;
     font-style: normal;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(15deg, #00ff0a, #b100ff);
+}
+
+.gen {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.61);
+    box-shadow: 0 0 250px rgba(0, 0, 0, 0.54);
+    border-radius: 15px;
+    display: grid;
+}
+
+
